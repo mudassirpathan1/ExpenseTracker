@@ -1,0 +1,23 @@
+.activate {
+  text-align: center;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.activate button {
+  padding: 8px 20px 8px 20px;
+  font-size: 18px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.activate a {
+  text-decoration: none;
+  padding: 8px 20px 8px 20px;
+  font-size: 18px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  color: black;
+}

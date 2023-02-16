@@ -1,0 +1,94 @@
+.form {
+  width: 500px;
+  margin: auto;
+  border: 2px solid black;
+  box-shadow: 0 0 10px black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.type,
+.amount,
+.description {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.type select,
+.amount input,
+.description textarea {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.type label,
+.amount label,
+.description label {
+  width: 35%;
+}
+
+.description textarea {
+  height: 80px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button button {
+  width: 30%;
+  padding: 5px 0 5px 0;
+  font-size: 18px;
+}
+
+.button button:active {
+  transform: scale(0.95);
+}
+
+.items {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px 10px 20px 0;
+}
+
+.items .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title span {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title a {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.title .titletype,
+.title .titleamount {
+  flex-basis: 20%;
+}
+
+.title .titledescription {
+  flex-basis: 35%;
+}
+
+.total {
+  flex-basis: 25%;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+}

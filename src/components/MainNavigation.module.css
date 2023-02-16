@@ -1,0 +1,45 @@
+.mainNav {
+  position: sticky;
+  width: 100%;
+  border-bottom: 5px solid gray;
+  padding-bottom: 10px;
+}
+
+.mainNav nav {
+  box-sizing: border-box;
+  width: 70%;
+  text-align: left;
+  display: inline-block;
+}
+
+.mainNav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px 0 30px;
+}
+
+.mainNav a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.mainNav a.active {
+  border-bottom: 2px solid black;
+}
+
+.button {
+  box-sizing: border-box;
+  width: 30%;
+  display: inline-block;
+  text-align: end;
+}
+
+.button button {
+  padding: 5px 20px 5px 20px;
+  margin-right: 30px;
+  margin-top: -3px;
+}
+
+.button button:active {
+  transform: scale(0.95);
+}
